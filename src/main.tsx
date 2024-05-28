@@ -1,5 +1,5 @@
 import { render } from 'preact'
 import './index.css'
-import App from './app'
+import { MainRouter } from './route/MainRouter'
 
-render(<App />, document.getElementById('app')!)
+render(<MainRouter />, document.getElementById('app')!)
